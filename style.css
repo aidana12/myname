@@ -1,0 +1,150 @@
+* {
+    font-family: 'Raleway', sans-serif;
+}
+body {
+  position: relative;
+}
+/*nav, */.navbar/*.navbar, .container-fluid, .navbar-default, .navbar-fixed-top, #bs-example-navbar-collapse-1 #navbar-example*/ {
+	background: rgba(255, 255, 255, 0.5);
+	min-height: 40px;
+    margin-bottom: 0px;
+}
+button.navbar-toggle.collapsed {
+	margin: 0px;
+}
+.navbar-nav>li>a {
+	padding: 10px!important;
+	color: #1F1B28;
+}
+a.navbar-brand {
+	height: 40px;
+    padding: 10px 15px;
+    font-size: 18px;
+    line-height: 17px;
+    color: #1F1B28;
+}
+h2:hover {
+	background-color: #0E081E;
+}
+.intro {
+	position: relative;
+}
+#cover {
+	width: 80%;
+	display: block;
+	margin: 40px auto;
+}
+h2 {
+    position: absolute!important;
+    text-align: center;
+    top: 10%;
+    width: 100%;
+    font-size: 3.5vw;
+    color: white;
+}
+.jumbotron {
+	margin: 0px;
+	background-color: white;
+}
+.fadeInBlock {
+    opacity:0;
+}
+p.fadeInBlock.hi, p.fadeInBlock.name {
+	width: 35%;
+	display: block;
+	margin: 2px auto;
+	padding: 0px 30px;
+	line-height: 3vw;
+	color: #1F1B28;
+}
+p.text {
+	width: 40%;
+	font-size: 1.6vw;
+	display: block;
+	margin: 2px auto;
+	padding: 0px 30px;
+	text-align: justify;
+	text-justify: distribute;
+	color: #1F1B28;
+}
+p.hi {
+	font-size: 3vw;
+	text-align: left;
+}
+p.name {
+	font-size: 2.5vw;
+	text-align: right;
+}
+img#me {
+	width: 20%;
+	border-radius: 50%;
+	margin: 20px auto;
+	display: block;
+}
+.row {
+	margin: 0 auto;
+	justify-content: space-around;
+	display: flex;
+}
+.parallax { 
+    /* The image used */
+    background-image: url("sun.jpg");
+    background-color: hsla(0,0%,100%,0.3);
+    background-blend-mode: overlay;
+    /* Set a specific height */
+    height: 55%; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+#b {
+	margin-bottom: 20px;
+}
+p.parallax {
+	z-index: 2!important;
+}
+p.description, p.dates, ul.description {
+	color: #1F1B28;
+	font-size: 1.6vw;
+	margin-top: 20px;
+	margin-bottom: 0px;
+	font-weight: bold;
+}
+li {
+	list-style-type: none;
+}
+ul {
+	padding: 0px;
+}
+.title {
+	font-size: 2vw;
+	text-align: right;
+	color: #1F1B28;
+	margin: 20px auto;
+	font-weight: bold;
+	vertical-align: top;
+
+}
+.pr {
+	width: 100%;
+	margin: 30px 0px;
+}
+div.col-sm-4.prr {
+	padding: 0px!important;
+}
+button {
+	border-color: transparent;
+	background-color: white;
+	display: inline-block;
+}
+img.button {
+	width: 80%;
+	margin: 20px auto;
+}
+.container1 {
+	display: flex;
+	justify-content: center;
+}
