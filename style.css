@@ -1,13 +1,13 @@
 * {
-    font-family: 'Raleway', sans-serif;
+	font-family: 'Raleway', sans-serif;
 }
 body {
-  position: relative;
+	position: relative;
 }
-/*nav, */.navbar/*.navbar, .container-fluid, .navbar-default, .navbar-fixed-top, #bs-example-navbar-collapse-1 #navbar-example*/ {
+.navbar {
 	background: rgba(255, 255, 255, 0.5);
 	min-height: 40px;
-    margin-bottom: 0px;
+	margin-bottom: 0px;
 }
 button.navbar-toggle.collapsed {
 	margin: 0px;
@@ -18,13 +18,10 @@ button.navbar-toggle.collapsed {
 }
 a.navbar-brand {
 	height: 40px;
-    padding: 10px 15px;
-    font-size: 18px;
-    line-height: 17px;
-    color: #1F1B28;
-}
-h2:hover {
-	background-color: #0E081E;
+	padding: 10px 15px;
+	font-size: 18px;
+	line-height: 17px;
+	color: #1F1B28;
 }
 .intro {
 	position: relative;
@@ -35,19 +32,22 @@ h2:hover {
 	margin: 40px auto;
 }
 h2 {
-    position: absolute!important;
-    text-align: center;
-    top: 10%;
-    width: 100%;
-    font-size: 3.5vw;
-    color: white;
+	position: absolute!important;
+	text-align: center;
+	top: 11%;
+	width: 100%;
+	font-size: 3.5vw;
+	color: white;
+}
+h2:hover {
+	background-color: #0E0A1A;
 }
 .jumbotron {
 	margin: 0px;
 	background-color: white;
 }
 .fadeInBlock {
-    opacity:0;
+	opacity:0;
 }
 p.fadeInBlock.hi, p.fadeInBlock.name {
 	width: 35%;
@@ -87,18 +87,19 @@ img#me {
 	display: flex;
 }
 .parallax { 
-    /* The image used */
-    background-image: url("sun.jpg");
-    background-color: hsla(0,0%,100%,0.3);
-    background-blend-mode: overlay;
-    /* Set a specific height */
-    height: 55%; 
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
+	/* The image used */
+	background-image: url("sun.jpg");
+	background-color: hsla(0,0%,100%,0.3);
+	background-blend-mode: overlay;
+	/* Set a specific height */
+	height: 55%; 
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	margin: 40px 0px;
 }
 #b {
 	margin-bottom: 20px;
@@ -132,6 +133,9 @@ ul {
 	width: 100%;
 	margin: 30px 0px;
 }
+.where {
+	font-size: 1.2vw;
+}
 div.col-sm-4.prr {
 	padding: 0px!important;
 }
@@ -146,5 +150,10 @@ img.button {
 }
 .container1 {
 	display: flex;
+	margin-top: 30px; 
 	justify-content: center;
+}
+
+.boxcontainer {
+	width: 100%;
 }
