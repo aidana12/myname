@@ -39,9 +39,6 @@ h2 {
 	font-size: 3.5vw;
 	color: white;
 }
-h2:hover {
-	background-color: #0E0A1A;
-}
 .jumbotron {
 	margin: 0px;
 	background-color: white;
