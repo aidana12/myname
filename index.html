@@ -9,13 +9,9 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<!-- Latest compiled and minified JavaScript -->
-	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-	<script type="text/javascript" src="myname.js"></script>
 </head>
 <body data-spy="scroll" data-target="#navbar-example">
-	<nav class="navbar navbar-fixed-top">
+	<nav class="navbar navbar-default navbar-fixed-top">
 		<div class="container-fluid">
 			<!-- Brand and toggle get grouped for better mobile display -->
 			<div class="navbar-header">
@@ -25,23 +21,28 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="#intro">Aidana Mun</a>
+				<a class="navbar-brand" href="#">Aidana Mun</a>
 			</div>
-			<div class="collapse navbar-collapse bs-example-js-navbar-scrollspy"" id="bs-example-navbar-collapse-1 navbar-example">
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav">
 					<li><a href="#about">About</a></li>
 					<li><a href="#edu">Education</a></li>
 					<li><a href="#work">Work</a></li>
 					<li><a href="#skills">Skills</a></li>
 					<li><a href="#projects">Projects</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
 					<li><a href="#contact">Contact</a></li>
 				</ul>
 			</div><!-- /.navbar-collapse -->
 		</div><!-- /.container-fluid -->
 	</nav>
-	<div id="intro">
-		<img id="cover" alt="Osaka skyline" src="osaka.jpg">
-		<h2 id="hover">Let's build bridges between worlds together.</h2>
+	<div class="cover parallax1 container-fluid boxcontainer">
+		<div class="row">
+			<div class="col-xs-12 height">
+				<h2 id="intro">Let's build bridges between worlds together.</h2>
+			</div>
+		</div>
 	</div>
 	<div id="about" class="about jumbotron">
 		<p class="fadeInBlock hi">Hello,</p>
@@ -49,7 +50,7 @@
 		<img class="fadeInBlock" alt="Picture of me" id="me" src="me.jpg">
 		<p class="fadeInBlock text">Constantly moving from one country to another has provided me with an immense amount of experience, a strong international background, and interpersonal skills. Ideas mean little without action, I trust that nothing feels as awarding as seeing those ideas become reality.</p>
 	</div>
-	<div class="parallax container-fluid boxcontainer">
+	<div class="parallax2 container-fluid boxcontainer">
 		<div class="row" id="edu">
 			<div class="col-xs-4">
 				<p class="title">Education</p>
@@ -57,7 +58,7 @@
 			</div>
 			<div class="col-xs-4">
 				<p class="description">International Business Administration</p>
-				<p class="where"><i>Erasmus University Rotterdam</i></p>
+				<p class="where">Erasmus University Rotterdam</p>
 			</div>
 			<div class="col-xs-4">
 				<p class="dates">2014-2017</p>
@@ -70,9 +71,9 @@
 			</div>
 			<div class="col-xs-4">
 				<p class="description">Marketing Content Creator</p>
-				<p class="where"><i>Erasmus Student Network</i></p>
+				<p class="where">Erasmus Student Network</p>
 				<p class="description">CRM intern</p>
-				<p class="where"><i>PricewaterhouseCoopers</i></p>
+				<p class="where">PricewaterhouseCoopers</p>
 			</div>
 			<div class="col-xs-4">
 				<p class="dates">2015-2016</p>
@@ -85,20 +86,25 @@
 				<p class="title">Skills</p>
 				<p></p>
 			</div>
-			<div class="col-xs-4">
+			<div class="col-xs-3">
 				<p>
 					<ul class="description">
 						<li>Problem-Solving</li>
+						<li>Frontend Development</li>
+						<li id="margin20">Marketing</li>
+					</ul>
+				</p>
+			</div>
+			<div class="col-xs-3">
+				<p>
+					<ul class="description">
 						<li>Design</li>
-						<li>Photography</li>
-						<li>HTML</li>
-						<li>CSS</li>
-						<li id="b">Javascript</li>
-					</ul></p>
-					<p></p>
-				</div>
-				<div class="col-xs-4">
-				</div>
+						<li>Autodesk Sketchbook</li>
+						<li id="margin20">Photography</li>
+					</ul>
+				</p>
+			</div>
+			<div class="col-xs-2">
 			</div>
 		</div>
 	</div>
@@ -113,5 +119,10 @@
 			<a href="https://www.instagram.com/__tacenda__/"><img class="button" src="instagram.png"></a>
 		</div>
 	</footer>
+		<!-- Latest compiled and minified JavaScript -->
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="myname.js"></script>
+	
 </body>
 </html>

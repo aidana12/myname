@@ -4,13 +4,27 @@
 body {
 	position: relative;
 }
+li {
+	list-style-type: none;
+}
+ul {
+	padding: 0px;
+}
+.row {
+	margin: 0 auto;
+	justify-content: space-around;
+	display: flex;
+}
+.navbar-default {
+	border-color: transparent;
+}
 .navbar {
 	background: rgba(255, 255, 255, 0.5);
 	min-height: 40px;
 	margin-bottom: 0px;
 }
 button.navbar-toggle.collapsed {
-	margin: 0px;
+	margin: 3.5px;
 }
 .navbar-nav>li>a {
 	padding: 10px!important;
@@ -21,23 +35,45 @@ a.navbar-brand {
 	padding: 10px 15px;
 	font-size: 18px;
 	line-height: 17px;
+}
+.navbar-default .navbar-brand, .navbar-default .navbar-nav>li>a {
 	color: #1F1B28;
 }
-.intro {
-	position: relative;
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #1F1B28;
 }
-#cover {
-	width: 80%;
-	display: block;
-	margin: 40px auto;
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+	background-color: rgba(255, 255, 255, 0.3);
+}
+.navbar-default .navbar-toggle {
+	border-color: #1F1B28;
+}
+.parallax1 { 
+	/* The image used */
+	background-image: url("https://static.pexels.com/photos/23865/pexels-photo.jpg");
+	background-color: hsla(0,0%,100%,0.7);
+	background-blend-mode: overlay;
+	/* Set a specific height */
+	height: 55%; 
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #1F1B28;
+	margin: 40px 0px;
+}
+.cover.parallax1.container-fluid.boxcontainer {
+	height: 42.5em;
+	margin: 0 auto 40px;
 }
 h2 {
-	position: absolute!important;
 	text-align: center;
-	top: 11%;
+	top: 50%;
 	width: 100%;
-	font-size: 3.5vw;
-	color: white;
+	font-size: 3.5em;
+	color: #1F1B28;
+	margin: 5em auto;
 }
 .jumbotron {
 	margin: 0px;
@@ -78,15 +114,10 @@ img#me {
 	margin: 20px auto;
 	display: block;
 }
-.row {
-	margin: 0 auto;
-	justify-content: space-around;
-	display: flex;
-}
-.parallax { 
+.parallax2 { 
 	/* The image used */
-	background-image: url("sun.jpg");
-	background-color: hsla(0,0%,100%,0.3);
+	background-image: url("https://static.pexels.com/photos/168765/pexels-photo-168765.jpeg");
+	background-color: hsla(0,0%,100%,0.7);
 	background-blend-mode: overlay;
 	/* Set a specific height */
 	height: 55%; 
@@ -98,7 +129,7 @@ img#me {
 	color: white;
 	margin: 40px 0px;
 }
-#b {
+#margin20 {
 	margin-bottom: 20px;
 }
 p.parallax {
@@ -111,12 +142,6 @@ p.description, p.dates, ul.description {
 	margin-bottom: 0px;
 	font-weight: bold;
 }
-li {
-	list-style-type: none;
-}
-ul {
-	padding: 0px;
-}
 .title {
 	font-size: 2vw;
 	text-align: right;
@@ -124,7 +149,6 @@ ul {
 	margin: 20px auto;
 	font-weight: bold;
 	vertical-align: top;
-
 }
 .pr {
 	width: 100%;
@@ -132,6 +156,7 @@ ul {
 }
 .where {
 	font-size: 1.2vw;
+	color: #1F1B28;
 }
 div.col-sm-4.prr {
 	padding: 0px!important;
@@ -150,7 +175,6 @@ img.button {
 	margin-top: 30px; 
 	justify-content: center;
 }
-
 .boxcontainer {
 	width: 100%;
 }
