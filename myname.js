@@ -14,4 +14,28 @@ $(document).ready(function() {
       }); 
     });
   });
+  $(".navbar-brand").click(function(){
+   console.log("clicked")
+   $(window).scrollTo($(".cover"), 1000);
+  })
+  $("#ab").click(function(){
+   console.log("clicked")
+   $(window).scrollTo($("#about"), 1000);
+  })
+  $("#ed").click(function(){
+   console.log("clicked")
+   $(window).scrollTo($("#edu"), 1000);
+  })
+  $("#wo").click(function(){
+   console.log("clicked")
+   $(window).scrollTo($("#work"), 1000);
+  })
+  $("#sk").click(function(){
+   console.log("clicked")
+   $(window).scrollTo($("#skills"), 1000);
+  })
+  $("#pr").click(function(){
+   console.log("clicked")
+   $(window).scrollTo($("#projects"), 1000);
+  })
 });
