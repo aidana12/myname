@@ -14,6 +14,7 @@ ul {
 	margin: 0 auto;
 	justify-content: space-around;
 	display: flex;
+	flex-wrap: wrap;
 }
 .navbar-default {
 	border-color: transparent;
@@ -73,7 +74,7 @@ h2 {
 	width: 100%;
 	font-size: 3.5em;
 	color: #1F1B28;
-	margin: 5.5em auto;
+	margin: 5.1em auto;
 }
 .jumbotron {
 	margin: 0px;
@@ -177,4 +178,46 @@ img.button {
 }
 .boxcontainer {
 	width: 100%;
+}
+@media (max-width: 900px) {
+	h2#intro {
+		font-size: 3.5em;
+		margin-top: 3em;
+	}
+	p.hi {
+		font-size: 2.3em;
+		margin-left: 2.5em!important;
+	}
+	p.name {
+		font-size: 1.5em;
+		margin-top: 1em!important;
+		margin-right: 3.5em!important;
+		width: 200px!important;
+	}
+	img#me {
+		width: 50%;
+	}
+	p.text {
+		font-size: 1em; 
+		width: 70%;
+	}
+	.title {
+		font-size: 1.3em;
+	}
+	p.description, p.dates, ul.description {
+		font-size: 0.9em;
+	}
+	.where {
+		font-size: 0.7em;
+	}
+}
+#edu {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 1%;
+/*	justify-content: center;
+	align-content: center;*/
+}
+li {
+	margin: 0px auto;
 }
