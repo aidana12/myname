@@ -38,4 +38,8 @@ $(document).ready(function() {
    console.log("clicked")
    $(window).scrollTo($("#projects"), 1000);
   })
+  $("#co").click(function(){
+   console.log("clicked")
+   $(window).scrollTo($("#contact"), 1000);
+  })
 });
