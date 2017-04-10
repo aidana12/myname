@@ -1,12 +1,13 @@
 * {
 	font-family: 'Raleway', sans-serif;
+/*	background: #000 !important;
+	color: #0f0 !important;
+	outline: solid #f00 1px !important;*/
 }
-/** {
-  background: #000 !important;
-  color: #0f0 !important;
-  outline: solid #f00 1px !important;
+.row {
+	margin-right: 0px!important;
+	margin-left: 0px!important;
 }
-*/
 body {
 	position: relative;
 }
@@ -168,7 +169,7 @@ button {
 	display: inline-block;
 }
 img.button {
-	width: 13%;
+	width: 5%;
 	margin: 0px auto 20px;
 }
 p.nomarginb {
@@ -232,6 +233,22 @@ p.nomarginb {
 	.margin20 {
 		margin-bottom: 0px;
 	}
+	.col-md-2.col-sm-2.col-xs-12{
+		padding-bottom: 50px!important;
+	}
+	img.button {
+		width: 5%;
+		margin: 3px auto 20px;
+		padding: 0px;
+		display: flex;
+		justify-content: center;
+	}
+	p.nomarginb {
+		text-align: center;
+		margin: 10px auto;
+		width: 100%;
+		padding-bottom: 20px;
+	}
 }
 @media (min-width: 320px) and (max-width: 599px) {
 	h2#intro {
@@ -290,16 +307,22 @@ p.nomarginb {
 		padding-bottom: 50px!important;
 	}
 	img.button {
-	width: 10%;
-	margin: 3px auto 20px;
-	padding: 0px;
+		width: 10%;
+		margin: 3px auto 20px;
+		padding: 0px;
+		display: flex;
+		justify-content: center;
+	}
+	p.right {
+		text-align: right!important;
 	}
 	p.nomarginb {
 		text-align: center;
-		margin: inherit auto;
+		margin: 10px auto;
 		width: 100%;
+		padding-bottom: 20px;
 	}
-	.row, .jumbotron {
+	.row, div#projects.projects.jumbotron {
 		width: 100%;
 	}
 }
