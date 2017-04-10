@@ -129,7 +129,7 @@ img#me {
 	background-repeat: no-repeat;
 	background-size: cover;
 	color: white;
-	margin: 40px 0px;
+    margin: 40px 0px 0px;
 }
 #margin20 {
 	margin-bottom: 20px;
@@ -184,9 +184,13 @@ p.right, div.right {
 	justify-content: center;
 }*/
 .container1 {
-	margin-top: 30px; 
+	margin-top: 5px; 
 	justify-content: center;
 	width: 100%
+}
+footer#contact {
+	padding-top: 15px;
+	background: rgba(245, 246, 248, 0.36);
 }
 .boxcontainer {
 	width: 100%;
