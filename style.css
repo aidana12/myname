@@ -1,0 +1,278 @@
+* {
+	font-family: 'Raleway', sans-serif;
+}
+body {
+	position: relative;
+}
+li {
+	list-style-type: none;
+}
+ul {
+	padding: 0px;
+}
+.navbar-default {
+	border-color: transparent;
+}
+.navbar {
+	background: rgba(255, 255, 255, 0.5);
+	min-height: 40px;
+	margin-bottom: 0px;
+}
+button.navbar-toggle.collapsed {
+	margin: 3.5px;
+}
+.navbar-nav>li>a {
+	padding: 10px!important;
+	color: #1F1B28;
+}
+a.navbar-brand {
+	height: 40px;
+	padding: 10px 15px;
+	font-size: 18px;
+	line-height: 17px;
+}
+.navbar-default .navbar-brand, .navbar-default .navbar-nav>li>a {
+	color: #1F1B28;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #1F1B28;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+	background-color: rgba(255, 255, 255, 0.3);
+}
+.navbar-default .navbar-toggle {
+	border-color: #1F1B28;
+}
+.parallax1 { 
+	/* The image used */
+	background-image: url("https://static.pexels.com/photos/23865/pexels-photo.jpg");
+	background-color: hsla(0,0%,100%,0.7);
+	background-blend-mode: overlay;
+	/* Set a specific height */
+	height: 55%; 
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #1F1B28;
+	margin: 40px 0px;
+}
+.cover.parallax1.container-fluid.boxcontainer {
+	height: 42.5em;
+	margin: 0 auto 40px;
+}
+h2 {
+	text-align: center;
+	top: 50%;
+	width: 100%;
+	font-size: 3.5em;
+	color: #1F1B28;
+	margin: 5.1em auto;
+}
+.jumbotron {
+	margin: 0px;
+	background-color: white;
+}
+.fadeInBlock {
+	opacity:0;
+}
+p.fadeInBlock.hi, p.fadeInBlock.name {
+	width: 35%;
+	display: block;
+	margin: 2px auto;
+	padding: 0px 1%;
+	line-height: 3vw;
+	color: #1F1B28;
+}
+p.text {
+	width: 40%;
+	font-size: 1.6vw;
+	display: block;
+	margin: 2px auto;
+	padding: 0px 1%;
+	text-align: justify;
+	text-justify: distribute;
+	color: #1F1B28;
+}
+p.hi {
+	font-size: 3vw;
+	text-align: left;
+}
+p.name {
+	font-size: 2.5vw;
+	text-align: right;
+}
+img#me {
+	width: 20%;
+	border-radius: 50%;
+	margin: 20px auto;
+	display: block;
+}
+.parallax2 { 
+	/* The image used */
+	background-image: url("https://static.pexels.com/photos/168765/pexels-photo-168765.jpeg");
+	background-color: hsla(0,0%,100%,0.7);
+	background-blend-mode: overlay;
+	/* Set a specific height */
+	height: 55%; 
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	margin: 40px 0px;
+}
+#margin20 {
+	margin-bottom: 20px;
+}
+p.parallax {
+	z-index: 2!important;
+}
+p.description, p.dates, ul.description {
+	color: #1F1B28;
+	font-size: 1.6vw;
+	margin-top: 20px;
+	margin-bottom: 0px;
+	font-weight: bold;
+}
+.title {
+	font-size: 2vw;
+	text-align: right;
+	color: #1F1B28;
+	margin: 20px auto;
+	font-weight: bold;
+	vertical-align: top;
+}
+.pr {
+	width: 100%;
+	margin: 30px 0px;
+}
+.where {
+	font-size: 1.2vw;
+	color: #1F1B28;
+}
+div.col-sm-4.prr {
+	padding: 0px!important;
+}
+button {
+	border-color: transparent;
+	background-color: white;
+	display: inline-block;
+}
+img.button {
+	width: 80%;
+	margin: 20px auto;
+}
+.container1 {
+	display: flex;
+	margin-top: 30px; 
+	justify-content: center;
+}
+.boxcontainer {
+	width: 100%;
+}
+@media (min-width: 600px) and (max-width: 768px) {
+	h2#intro {
+		font-size: 3.5em;
+		margin-top: 4.3em;
+	}
+	p.hi {
+		font-size: 3em;
+		margin-left: 2.5em!important;
+	}
+	p.name {
+		font-size: 2em;
+		margin-top: 1em!important;
+		margin-right: 4em!important;
+		width: 290px!important;
+	}
+	img#me {
+		width: 50%;
+	}
+	p.text {
+		font-size: 1.3em; 
+		width: 70%;
+	}
+	.title {
+		font-size: 1.4em;
+		text-align: center;
+		margin-bottom: 0px!important;
+		line-height: 15px;
+	}
+	p.description, p.dates, ul.description {
+		font-size: 1.2em;
+		text-align: center;
+		margin-top: 5px;
+		line-height: 15px;
+	}
+	p.dates {
+		font-size: 1.1em;
+		margin-top: -10px;
+		margin-bottom: 20px;
+	}
+	.where {
+		font-size: 1.1em;
+		text-align: center;
+	}
+	li.skills {
+		margin-top: 5px!important;
+		margin-bottom: 5px!important;
+	}
+	.margin20 {
+		margin-bottom: 0px;
+	}
+}
+@media (min-width: 320px) and (max-width: 599px) {
+	h2#intro {
+		font-size: 3em;
+		margin-top: 5.1em;
+	}
+	p.hi {
+		font-size: 2.5em;
+		margin-left: 2.1em!important;
+	}
+	p.name {
+		font-size: 2em;
+		margin-top: 1em!important;
+		margin-right: 2.5em!important;
+		width: 290px!important;
+	}
+	img#me {
+		width: 50%;
+	}
+	p.text {
+		font-size: 1.3em; 
+		width: 70%;
+	}
+	.title {
+		font-size: 1.4em;
+		text-align: center;
+		margin-bottom: 0px!important;
+		line-height: 15px;
+	}
+	p.description, p.dates, ul.description {
+		font-size: 1.2em;
+		text-align: center;
+		margin-top: 5px;
+		line-height: 15px;
+	}
+	p.dates {
+		font-size: 1.1em;
+		margin-top: -10px;
+		margin-bottom: 20px;
+	}
+	.where {
+		font-size: 1.1em;
+		text-align: center;
+	}
+	li.skills {
+		margin-top: 5px!important;
+		margin-bottom: 5px!important;
+	}
+	.margin20 {
+		margin-bottom: 0px;
+	}
+}
+
