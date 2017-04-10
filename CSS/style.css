@@ -237,18 +237,25 @@ p.nomarginb {
 		padding-bottom: 50px!important;
 	}
 	img.button {
-		width: 5%;
-		margin: 3px auto 20px;
+		width: 24px;
+		margin: 5px auto 5px;
 		padding: 0px;
+	}
+	.flex {
 		display: flex;
+		flex-wrap: wrap;
 		justify-content: center;
 	}
 	p.nomarginb {
 		text-align: center;
 		margin: 10px auto;
 		width: 100%;
+		padding-bottom: 0;
+	}
+	p.padding20 {
 		padding-bottom: 20px;
 	}
+
 }
 @media (min-width: 320px) and (max-width: 599px) {
 	h2#intro {
@@ -307,19 +314,22 @@ p.nomarginb {
 		padding-bottom: 50px!important;
 	}
 	img.button {
-		width: 10%;
-		margin: 3px auto 20px;
+		width: 24px;
+		margin: 5px auto 5px;
 		padding: 0px;
-		display: flex;
-		justify-content: center;
 	}
-	p.right {
-		text-align: right!important;
+	.flex {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
 	}
 	p.nomarginb {
 		text-align: center;
 		margin: 10px auto;
 		width: 100%;
+		padding-bottom: 0;
+	}
+	p.padding20 {
 		padding-bottom: 20px;
 	}
 	.row, div#projects.projects.jumbotron {
