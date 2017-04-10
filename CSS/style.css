@@ -1,6 +1,12 @@
 * {
 	font-family: 'Raleway', sans-serif;
 }
+/** {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+}
+*/
 body {
 	position: relative;
 }
@@ -81,7 +87,7 @@ p.fadeInBlock.hi, p.fadeInBlock.name {
 	width: 35%;
 	display: block;
 	margin: 2px auto;
-	padding: 0px 1%;
+	padding: 0px;
 	line-height: 3vw;
 	color: #1F1B28;
 }
@@ -90,7 +96,7 @@ p.text {
 	font-size: 1.6vw;
 	display: block;
 	margin: 2px auto;
-	padding: 0px 1%;
+	padding: 0px;
 	text-align: justify;
 	text-justify: distribute;
 	color: #1F1B28;
@@ -169,9 +175,9 @@ p.nomarginb {
 	margin-bottom: 0px!important;
 }
 .container1 {
-	display: flex;
 	margin-top: 30px; 
 	justify-content: center;
+	width: 100%
 }
 .boxcontainer {
 	width: 100%;
@@ -229,8 +235,11 @@ p.nomarginb {
 }
 @media (min-width: 320px) and (max-width: 599px) {
 	h2#intro {
-		font-size: 3em;
-		margin-top: 5.1em;
+		font-size: 2.5em;
+		margin-top: 6.9em;
+	}
+	.col-xs-12-height {
+		padding: 0px;
 	}
 	p.hi {
 		font-size: 2.5em;
@@ -255,6 +264,9 @@ p.nomarginb {
 		margin-bottom: 0px!important;
 		line-height: 15px;
 	}
+	div#edu {
+		padding-top: 50px;
+	}
 	p.description, p.dates, ul.description {
 		font-size: 1.2em;
 		text-align: center;
@@ -274,8 +286,21 @@ p.nomarginb {
 		margin-top: 5px!important;
 		margin-bottom: 5px!important;
 	}
-	.margin20 {
-		margin-bottom: 0px;
+	.col-md-2.col-sm-2.col-xs-12{
+		padding-bottom: 50px!important;
+	}
+	img.button {
+	width: 10%;
+	margin: 3px auto 20px;
+	padding: 0px;
+	}
+	p.nomarginb {
+		text-align: center;
+		margin: inherit auto;
+		width: 100%;
+	}
+	.row, .jumbotron {
+		width: 100%;
 	}
 }
 
