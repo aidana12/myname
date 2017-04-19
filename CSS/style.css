@@ -72,7 +72,7 @@ ul.nav.navbar-nav, ul.nav.navbar-nav.navbar-right {
 	height: 47.5em;
 	margin: 0 auto 40px;
 }
-h2 {
+h2#intro {
 	text-align: center;
 	top: 50%;
 	width: 100%;
@@ -132,7 +132,7 @@ img#me {
 	background-repeat: no-repeat;
 	background-size: cover;
 	color: white;
-    margin: 40px 0px 0px;
+	margin: 40px 0px 0px;
 	padding: 60px 0;
 }
 .margin20 {
@@ -183,7 +183,7 @@ p.right, div.right {
 	text-align: right;
 } 
 #projects {
-    padding: 80px 0;
+	padding: 80px 0;
 }
 .container1 {
 	margin-top: 5px; 
