@@ -205,6 +205,9 @@ footer#contact {
 		font-size: 3.5em;
 		margin-top: 4.3em;
 	}
+	.custom {
+	    width: inherit;
+	}
 	p.hi {
 		font-size: 3em;
 		margin-left: 2.5em!important;
@@ -281,6 +284,10 @@ footer#contact {
 	}
 	.col-xs-12-height {
 		padding: 0px;
+	}
+	.custom {
+	    width: inherit;
+	    padding-right: inherit;
 	}
 	p.hi {
 		font-size: 2.5em;
