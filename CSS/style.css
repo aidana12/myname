@@ -207,6 +207,7 @@ footer#contact {
 	}
 	.custom {
 	    width: inherit;
+	    padding-right: 15px;
 	}
 	p.hi {
 		font-size: 3em;
@@ -228,7 +229,6 @@ footer#contact {
 	.title {
 		font-size: 1.4em;
 		text-align: center;
-		margin-bottom: 0px!important;
 		line-height: 15px;
 	}
 	p.description, p.dates, ul.description {
@@ -251,7 +251,7 @@ footer#contact {
 		margin-bottom: 5px!important;
 	}
 	.margin20 {
-		margin-bottom: 0px;
+		margin-bottom: 0px!important;
 	}
 	.col-md-2.col-sm-2.col-xs-12{
 		padding-bottom: 50px!important;
@@ -287,16 +287,16 @@ footer#contact {
 	}
 	.custom {
 	    width: inherit;
-	    padding-right: inherit;
+	    padding-right: 15px;
 	}
 	p.hi {
 		font-size: 2.5em;
-		margin-left: 2.1em!important;
+		margin-left: 4em!important;
 	}
 	p.name {
 		font-size: 2em;
 		margin-top: 1em!important;
-		margin-right: 2.5em!important;
+		margin-right: 2.2em!important;
 		width: 290px!important;
 	}
 	img#me {
@@ -309,12 +309,11 @@ footer#contact {
 	.title {
 		font-size: 1.4em;
 		text-align: center;
-		margin-bottom: 0px!important;
 		line-height: 15px;
 	}
-	div#edu {
+/*	div#edu {
 		padding-top: 50px;
-	}
+	}*/
 	p.description, p.dates, ul.description {
 		font-size: 1.2em;
 		text-align: center;
@@ -332,10 +331,10 @@ footer#contact {
 	}
 	li.skills {
 		margin-top: 5px!important;
-		margin-bottom: 5px!important;
+		margin-bottom: 5px;
 	}
 	.col-md-2.col-sm-2.col-xs-12{
-		padding-bottom: 50px!important;
+		padding-bottom: 0px!important;
 	}
 	img.button {
 		width: 24px;
@@ -358,6 +357,15 @@ footer#contact {
 	}
 	.row, div#projects.projects.jumbotron {
 		width: 100%;
+	}
+	.nomargbot {
+		margin-bottom: 0px!important;
+	}
+	p#pr {
+	    margin-left: 3.5em!important;
+	}
+	p#coming {
+		margin-right: 3.1em!important;
 	}
 }
 
